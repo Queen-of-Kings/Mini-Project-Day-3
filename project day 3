@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(400, 300);
+  background(100)
+}
+
+function draw() {
+
+  noStroke();
+  fill(200, 0, 100);
+  circle(mouseX, mouseY, 24) 
+}
+
+function mousePressed(){
+  background(100)
+}
